@@ -40,7 +40,7 @@ const Hero = () => (
                     <GradientWrapper className="mt-16 sm:mt-28" wrapperClassName="max-w-3xl h-[250px] top-12 inset-0 sm:h-[300px] lg:h-[650px]">
                         <Image
                             src={HeroImg}
-                            className="shadow-lg rounded-2xl"
+                            className="shadow-lg rounded-2xl justify-center"
                             alt="Niddam"
                         />
                     </GradientWrapper>
