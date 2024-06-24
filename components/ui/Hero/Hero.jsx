@@ -1,7 +1,7 @@
 import GradientWrapper from "@/components/GradientWrapper"
 import Image from "next/image"
 import NavLink from "../NavLink"
-import HeroImg from "@/public/images/hero.svg"
+import HeroImg from "@/public/images/yar.svg"
 import LayoutEffect from "@/components/LayoutEffect"
 
 const Hero = () => (
