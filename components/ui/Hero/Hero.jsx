@@ -3,6 +3,18 @@ import Image from "next/image"
 import NavLink from "../NavLink"
 import HeroImg from "@/public/images/topyar.png"
 import LayoutEffect from "@/components/LayoutEffect"
+import { Grid, Cell } from 'react-grid-layout';
+
+const layout = [
+  {
+    i: 'image',
+    w: 12,
+    h: 6,
+    x: 0,
+    y: 0,
+    static: true,
+  },
+];
 
 const Hero = () => (
     <section>
@@ -38,11 +50,11 @@ const Hero = () => (
                         </div>
                     </div>
                     <GradientWrapper className="mt-16 sm:mt-28" wrapperClassName="max-w-3xl h-[250px] top-12 inset-0 sm:h-[300px] lg:h-[650px]">
-                        <Image
-                            src={HeroImg}
-                            className="shadow-lg rounded-2xl justify-center"
-                            alt="Niddam"
-                        />
+                       <Grid layout={layout}>
+    <Cell className="shadow-lg rounded-2xl" key="image">
+      <Image src={HeroImg} alt="Niddam" />
+    </Cell>
+  </Grid>
                     </GradientWrapper>
                 </div>
             </LayoutEffect>
