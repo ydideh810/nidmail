@@ -66,10 +66,10 @@ const Features = () => {
                 >
                     <div className="max-w-xl mx-auto text-center">
                         <h2 className="text-gray-50 text-3xl font-semibold sm:text-4xl">
-                             Your trusted ally in navigating the digital landscape,
+                             Your trusted ally in navigating the digital landscape
                         </h2>
                         <p className="mt-3">
-                            providing expert assistance and innovative solutions to make your life easier!.
+                            Providing expert assistance and innovative solutions to make your life easier!.
                         </p>
                     </div>
                 </LayoutEffect>
