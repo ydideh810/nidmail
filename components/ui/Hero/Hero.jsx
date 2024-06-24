@@ -41,7 +41,7 @@ const Hero = () => (
                         <Image
                             src={HeroImg}
                             className="shadow-lg rounded-2xl"
-                            alt="Mailgo"
+                            alt="Niddam"
                         />
                     </GradientWrapper>
                 </div>
