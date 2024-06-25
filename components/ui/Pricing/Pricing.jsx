@@ -34,6 +34,16 @@ const Pricing = () => {
                 "Export/Import prompt libraries",
             ],
         },
+         {
+            name: "Niddam_Ulti",
+            desc: "New Frontier",
+            price: 0,
+            isMostPop: false,
+            features: [
+                "COMMING SOON",
+
+            ],
+        }
         
     ];
 
@@ -43,7 +53,7 @@ const Pricing = () => {
         <SectionWrapper id="pricing" className='custom-screen'>
             <div className='relative max-w-xl mx-auto text-center'>
                 <h2 className='text-gray-50 text-3xl font-semibold sm:text-4xl'>
-                    Find a plan to power your business
+                   Here are your options
                 </h2>
             </div>
             <LayoutEffect
