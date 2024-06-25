@@ -26,12 +26,12 @@ const Pricing = () => {
             price: 12,
             isMostPop: true,
             features: [
-                "From 20k emails/month",
-                "Marketing Automation",
-                "A/B testing",
-                "Advanced statistics",
-                "Multi-user access",
-                "Send time optimization",
+                "Over 30 LLM Models",
+                "Conservations remain after exiting site",
+                "Manual data management",
+                "Export data as markdown",
+                "Share conversations",
+                "Export/Import prompt libraries",
             ],
         },
         
