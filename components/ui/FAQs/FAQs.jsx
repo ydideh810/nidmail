@@ -11,20 +11,16 @@ const faqsList = [
         a: "Once the chosen model is initially loaded, you can turn off your Wifi and use Niddam as usual.",
     },
     {
-        q: "How do I get started with an email marketing tool?",
-        a: "To get started with an email marketing tool, you will need to sign up for an account with our provider, Once you have signed up for an account, you can start.",
+        q: "Is authentication required?",
+        a: "Nope. No authentication required as Niddam is a private AI. Private meaning your data does not get send to any third-party.",
     },
     {
-        q: "How does an AI-powered email marketing tool work?",
-        a: "Social media is a great place for businesses because it has the An AI-powered email marketing tool works by analyzing customer data to identify patterns and trends in order to create more targeted campaigns.",
+        q: "Is Niddam it's own LLM?",
+        a: "No. Niddam is a web interface for various LLMs that is designed to make it act as one.",
     },
     {
-        q: "What are the benefits of using an AI-powered email marketing tool?",
-        a: "AI-powered email marketing tools can help marketers save time and money by automating tasks such as segmentation, personalization, content optimization, and more.",
-    },
-    {
-        q: "Can I sell my digital products using Mailgo?",
-        a: "Of course you can market and sell your digital products and subscriptions with Mailgo to drive higher conversions and save big on fees.",
+        q: "Why should I use Niddam?",
+        a: "Without authentication, you can access a host of open-source LLMs in a seamless manner with the surety that your data is safe and away from Big Tech!",
     }
 ]
 
@@ -33,10 +29,10 @@ const FAQs = () => (
         <div className="custom-screen text-gray-300">
             <div className="max-w-xl text-center xl:mx-auto">
                 <h2 className="text-gray-50 text-3xl font-extrabold sm:text-4xl">
-                    What You Need To Know
+                    FAQ
                 </h2>
                 <p className="mt-3">
-                    Why you should Niddam as your AI partner.
+                    What You Need To Know
                 </p>
             </div>
             <div className='mt-12'>
