@@ -72,7 +72,7 @@ const Pricing = () => {
                                 }}
                             >
                                 <div className="p-8 space-y-4 border-b border-gray-800 text-center">
-                                    <span className='text-purple-600 font-medium'>
+                                    <span className='text-red-600 font-medium'>
                                         {item.name}
                                     </span>
                                     <div className='text-gray-50 text-3xl font-semibold'>
@@ -89,7 +89,7 @@ const Pricing = () => {
                                                 <li key={idx} className='flex items-center gap-5 text-gray-300'>
                                                     <svg
                                                         xmlns='http://www.w3.org/2000/svg'
-                                                        className='h-5 w-5 text-indigo-600'
+                                                        className='h-5 w-5 text-red-600'
                                                         viewBox='0 0 20 20'
                                                         fill='currentColor'>
                                                         <path
@@ -103,7 +103,7 @@ const Pricing = () => {
                                         }
                                     </ul>
                                     <div className="pt-8">
-                                        <Button className={`w-full rounded-full text-white ring-offset-2 focus:ring ${item.isMostPop ? "bg-purple-600 hover:bg-red-500 focus:bg-red-700 ring-red-600" : "bg-gray-800 hover:bg-gray-700 ring-gray-800"}`}>
+                                        <Button className={`w-full rounded-full text-white ring-offset-2 focus:ring ${item.isMostPop ? "bg-red-600 hover:bg-red-500 focus:bg-red-700 ring-red-600" : "bg-gray-800 hover:bg-gray-700 ring-gray-800"}`}>
                                             Get Started
                                         </Button>
                                     </div>
