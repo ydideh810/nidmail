@@ -3,12 +3,12 @@ import SectionWrapper from "@/components/SectionWrapper"
 
 const faqsList = [
     {
-        q: "What is an email marketing tool?",
-        a: "An email marketing tool is a software application that allows you to create, send, and manage email campaigns. It helps you to create professional-looking emails, track their performance, and analyze the results.",
+        q: "Where is my data stored?",
+        a: "Data is stored in the browser. In Niddam_yar, All info is deleted upon refreshing the browser or exiting the tab.",
     },
     {
-        q: "What are the benefits of using an email marketing tool?",
-        a: "An email marketing tool can help you reach a larger audience, increase engagement with your customers, and generate more leads.",
+        q: "Can this app worked offline?",
+        a: "Once the chosen model is initially loaded, you can turn off your Wifi and use Niddam as usual.",
     },
     {
         q: "How do I get started with an email marketing tool?",
@@ -33,10 +33,10 @@ const FAQs = () => (
         <div className="custom-screen text-gray-300">
             <div className="max-w-xl text-center xl:mx-auto">
                 <h2 className="text-gray-50 text-3xl font-extrabold sm:text-4xl">
-                    Everything you need to know
+                    What You Need To Know
                 </h2>
                 <p className="mt-3">
-                    Here are the most questions people always ask about.
+                    Why you should Niddam as your AI partner.
                 </p>
             </div>
             <div className='mt-12'>
