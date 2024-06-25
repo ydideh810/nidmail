@@ -6,22 +6,22 @@ const Pricing = () => {
 
     const plans = [
         {
-            name: "Basic plan",
-            desc: "For new creators building their list",
+            name: "Niddam_yar",
+            desc: "For new AI explorers",
             price: 0,
             isMostPop: false,
             features: [
-                "300 emails/day",
-                "Customizable Email Templates",
-                "Drag & Drop Editor",
-                "Transactional Emails",
-                "SMS & WhatsApp Campaigns",
-                "Phone support",
+                "Up to four LLM models",
+                "Data never leaves your computer",
+                "Unlimited editing",
+                "Supported browsers: Chrome, Edge",
+                "Works Offline",
+                "Email support",
 
             ],
         },
         {
-            name: "Starter",
+            name: "Niddam_AI",
             desc: "Ideal for growing businesses",
             price: 12,
             isMostPop: true,
@@ -34,20 +34,7 @@ const Pricing = () => {
                 "Send time optimization",
             ],
         },
-        {
-            name: "Business",
-            desc: "Built for marketing managers",
-            price: 32,
-            isMostPop: false,
-            features: [
-                "Everything in Starter",
-                "Enterprise-grade Security",
-                "Advanced Integrations",
-                "Sub-account Management",
-                "Tailored Onboarding",
-                "Personalized support",
-            ],
-        },
+        
     ];
 
     const mostPopPricingBg = "radial-gradient(130.39% 130.39% at 51.31% -0.71%, #1F2937 0%, rgba(31, 41, 55, 0) 100%)"
