@@ -47,7 +47,7 @@ const Pricing = () => {
         
     ];
 
-    const mostPopPricingBg = "radial-gradient(130.39% 130.39% at 51.31% -0.71%, #1F2937 0%, rgba(31, 41, 55, 0) 100%)"
+    const mostPopPricingBg = "radial-gradient(130.39% 130.39% at 51.31% -0.71%, #909090 0%, rgba(31, 41, 55, 0) 100%)"
 
     return (
         <SectionWrapper id="pricing" className='custom-screen'>
@@ -66,7 +66,7 @@ const Pricing = () => {
                 <div className='mt-16 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3'>
                     {
                         plans.map((item, idx) => (
-                            <div key={idx} className={`relative flex-1 flex items-stretch flex-col rounded-xl border border-gray-800 mt-6 sm:mt-0 ${item.isMostPop ? "border border-purple-500" : ""}`}
+                            <div key={idx} className={`relative flex-1 flex items-stretch flex-col rounded-xl border border-gray-800 mt-6 sm:mt-0 ${item.isMostPop ? "border border-red-500" : ""}`}
                                 style={{
                                     backgroundImage: item.isMostPop ? mostPopPricingBg : ""
                                 }}
@@ -103,7 +103,7 @@ const Pricing = () => {
                                         }
                                     </ul>
                                     <div className="pt-8">
-                                        <Button className={`w-full rounded-full text-white ring-offset-2 focus:ring ${item.isMostPop ? "bg-purple-600 hover:bg-purple-500 focus:bg-purple-700 ring-purple-600" : "bg-gray-800 hover:bg-gray-700 ring-gray-800"}`}>
+                                        <Button className={`w-full rounded-full text-white ring-offset-2 focus:ring ${item.isMostPop ? "bg-purple-600 hover:bg-red-500 focus:bg-red-700 ring-red-600" : "bg-gray-800 hover:bg-gray-700 ring-gray-800"}`}>
                                             Get Started
                                         </Button>
                                     </div>
