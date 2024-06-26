@@ -22,7 +22,7 @@ const Hero = () => (
                                 backgroundImage: "linear-gradient(179.1deg, #FFFFFF 0.77%, rgba(255, 255, 255, 0) 182.09%)"
                             }}
                         >
-                            Experience the power of AI w/out compromising your privacy
+                            Experience the power of AI without compromising your privacy
                         </h1>
                         <p className="max-w-xl mx-auto text-gray-300">
                             Engage in natural-sounding conversations, generate high-quality content, summarize lengthy documents and resolve creative challenges.
