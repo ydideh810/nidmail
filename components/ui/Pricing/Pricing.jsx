@@ -40,7 +40,7 @@ const Pricing = () => {
             price: 0,
             isMostPop: false,
             features: [
-                "COMMING SOON",
+                "COMING SOON",
 
             ],
         }
