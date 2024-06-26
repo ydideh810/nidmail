@@ -103,9 +103,11 @@ const Pricing = () => {
                                         }
                                     </ul>
                                     <div className="pt-8">
+                                         <a href="https://linktr.ee/Niddam">
                                         <Button className={`w-full rounded-full text-white ring-offset-2 focus:ring ${item.isMostPop ? "bg-red-600 hover:bg-red-500 focus:bg-red-700 ring-red-600" : "bg-gray-800 hover:bg-gray-700 ring-gray-800"}`}>
                                             Start Now
                                         </Button>
+                                             </a>
                                     </div>
                                 </div>
                             </div>
