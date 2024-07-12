@@ -1,7 +1,7 @@
 import GradientWrapper from "@/components/GradientWrapper"
 import Image from "next/image"
 import NavLink from "../NavLink"
-import HeroImg from "@/public/images/front.png"
+import HeroImg from "@/public/images/frontt.png"
 import LayoutEffect from "@/components/LayoutEffect"
 
 
