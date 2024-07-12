@@ -41,7 +41,6 @@ const Hero = () => (
                     </div>
                     <GradientWrapper className="mt-16 sm:mt-28" wrapperClassName="max-w-3xl h-[250px] top-12 inset-0 sm:h-[300px] lg:h-[650px]">
                  
-  <a href="https://dang.ai/" target="_blank" ><img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Dang.ai" style="width: 150px; height: 54px;" width="150" height="54"/></a>
       <Image className="shadow-lg rounded-2xl center" src={HeroImg} style={{ alignSelf: 'center', display: 'inline-flex', justifyContent: 'center' }} alt="Niddam" />
    
                     </GradientWrapper>
